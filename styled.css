@@ -1,0 +1,101 @@
+/* FOR DESKTOP */
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+.nav-bar{
+    height: 150px;
+    
+}
+
+.nav-logo{
+    text-align: left;  
+    margin-bottom: 30px;
+
+}
+.nav-heading h1{
+    text-align: right;
+    margin-top: 30px;
+}
+.nav-menu{
+    flex-direction:row;
+    justify-content: end;
+    
+}
+.nav-menu a{
+    text-align: right;
+    padding: 5px 10px;
+    margin-top: 50px ;
+    background-color: transparent;
+    color: white;
+}
+.nav-menu a:hover{
+    color:#00abf0;
+    background-color:transparent;
+}
+.profile h1{
+   
+
+}
+
+.profile h3{
+    font-size: 2.5rem;
+    color: transparent;
+    -webkit-text-stroke:.5px #fff;
+    background-image: linear-gradient(#00abf0, #00abf0);
+    background-repeat: no-repeat;
+    -webkit-background-clip:text;
+    background-position: -30px 0; 
+    animation:animateText 5s linear infinite;
+ }
+ 
+ @keyframes animateText{
+    0%,95%,100%{
+    background-position: -850px 0;
+ }
+ 65%,85%{
+ background-position: 0 0;
+ }
+ }
+
+/* ABOUT STYLE START HERE */
+ .about-img img{
+    width: 300px;
+    height: 300px;
+margin-top: 90px;
+margin-right: 100px;
+ }
+ .about-des p {
+    text-align: left;
+ }
+/* ABOUT STYLE END HERE */
+
+/* CONTACT STYLE START HERE */
+.contact-form button{
+    width: 150px;
+    padding: 15px;
+}
+
+
+ .contact-links{
+      position: relative;
+ }
+ .media-buttons{
+    position: absolute;
+    margin-top:200px;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+ }
+
+/* CONTACT STYLE end HERE */
